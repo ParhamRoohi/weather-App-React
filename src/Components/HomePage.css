@@ -1,0 +1,160 @@
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Vazirmatn, sans-serif;
+  color: white;
+  background: linear-gradient(
+    167.44deg,
+    #0b7da1 0%,
+    #33aadd 47.38%,
+    #2dc8ea 100%
+  );
+  width: auto;
+  position: relative;
+}
+
+#Main {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: auto;
+}
+
+.Header_City-icon i {
+  height: 20px;
+  margin-left: 10px;
+  color: white;
+}
+
+#Header_Date-Text {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#Header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3% 3% 6% 3%;
+  color: white;
+}
+
+.City {
+  display: flex;
+  flex-direction: row;
+}
+
+.City p {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#Weather {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Weather_Widget-Header {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px;
+  gap: 8px;
+}
+
+#Weather_Widget {
+  padding: 20px 30px;
+  margin: 20px;
+  width: 70%;
+  border-radius: 16px;
+  background: #ffffff0d;
+}
+
+.Weather_Widget-Day {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-top: 1px solid #ffffff1a;
+  width: 100%;
+}
+
+.Weather_Widget-Day img {
+  width: 40px;
+  height: 40px;
+}
+
+.Day_Temp {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  justify-items: end;
+  order: 1;
+}
+
+.Weather-Today {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+  margin: 20px;
+}
+
+.Weather-Today img {
+  height: 150px;
+  width: 150px;
+}
+
+.Weather-Today > .Data {
+  display: flex;
+  gap: 16px;
+  text-align: center;
+  align-items: center;
+}
+
+.Day_Icon {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  order: 2;
+  align-items: end;
+}
+
+.Data {
+  order: 3;
+  text-align: end;
+}
+
+.Dark_Mode {
+  background: linear-gradient(
+    167.44deg,
+    #08244f 0%,
+    #134cb5 47.38%,
+    #0b42ab 100%
+  );
+}
+
+.Text {
+  display: flex;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.Temp{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 20px;
+} 
