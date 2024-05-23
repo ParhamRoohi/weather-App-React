@@ -1,31 +1,4 @@
 
-@media (max-width: 356px) {
-  .City p {
-    font-size: 14px;
-  }
-
-  .Header_City-icon i {
-    height: 16px;
-    margin-left: 5px;
-  }
-
-  #Header_Date-Text {
-    font-size: 12px;
-  }
-
-  .Weather_Widget-Day img {
-
-    width: 30px;
-    height: 30px;
-  }
-
-  .Weather-Today img {
-    height: 80px;
-    width: 80px;
-  }
-} */
-
-
 
 * {
   padding: 0;
