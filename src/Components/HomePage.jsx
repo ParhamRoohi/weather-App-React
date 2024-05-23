@@ -125,6 +125,7 @@ function HomePage() {
       </div>
     );
   };
+
   function getCurrentTime() {
     const now = new Date();
     const hours = now.getHours();
@@ -134,13 +135,13 @@ function HomePage() {
   function setAppTheme() {
     const element = document.body;
     const currentTime = getCurrentTime();
-
     if (currentTime >= 20 || currentTime < 6) {
       element.classList.add("Dark_Mode");
     } else {
       element.classList.remove("Dark_Mode");
     }
   }
+  
   setAppTheme();
   setInterval(setAppTheme, 5 * 60 * 1000);
 
